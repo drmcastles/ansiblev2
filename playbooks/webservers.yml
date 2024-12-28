@@ -1,0 +1,8 @@
+---
+# Плейбук для установки и настройки Apache и Nginx
+- name: Установка и настройка Apache и Nginx
+  hosts: localhost
+  become: yes
+  roles:
+    - apache
+    - nginx
